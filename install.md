@@ -1,8 +1,9 @@
 #Install Docker and Kubernetes to all nodes
 
 Open 3 Azure Cloud shells and Log-in to Launcher VM in each case:
+```bash
 ssh pranabpaul@13.95.211.101                 (Use the public IP of the VM)
-
+```
 Log-in to controller and 2 workers from Launcher prompt using their private IPs:
 ssh kuberoot@10.230.0.10
 ssh kuberoot@10.230.0.20
